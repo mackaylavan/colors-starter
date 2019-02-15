@@ -1,0 +1,107 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html, body {
+  margin: 0px;
+}
+
+.clear {
+  clear: both;
+}
+
+#wrapper {
+  width: 100%;
+  max-width: 960px;
+  margin: auto;
+}
+
+
+/*---------- HEADER ----------*/
+
+header {
+  height: 300px;
+  width: 100%;
+  background: #e3e3e3;
+}
+
+
+/*---------- CONTENT AREA ----------*/
+
+.col-3 {
+  width: 100%;
+  height: 320px;
+  float: left;
+}
+
+#column-1 {
+  background: #380505;
+}
+
+#column-2 {
+  background: #aa600c;
+}
+
+#column-3 {
+  background: #c0a738;
+}
+
+
+/*---------- FOOTER ----------*/
+
+footer {
+  width: 100%;
+  height: 30px;
+  background: #e3e3e3;
+}
+
+
+/*---------- TABLET ----------*/
+/* Change the background colors below */
+
+@media (min-width: 768px) {
+  header {
+    background-color:#DEB887;
+  }
+
+  #column-1 {
+    background-color: #00008B;
+  }
+
+  #column-2 {
+    background-color:	#008B8B;
+  }
+
+  #column-3 {
+    background-color:	#8FBC8F;
+  }
+
+  footer {
+    background-color:#DEB887;
+  }
+  
+}
+
+
+/*---------- Desktops ----------*/
+@media (min-width: 1200px) {
+  header {
+    background-color:#696969 ;
+  }
+
+  #column-1 {
+    background-color:	#DB7093;
+  }
+
+  #column-2 {
+    background-color:#FFB6C1;
+  }
+
+  #column-3 {
+    background-color: #FFE4E1;
+  }
+
+  footer {
+    background-color: #696969;
+  }
+   
+}
